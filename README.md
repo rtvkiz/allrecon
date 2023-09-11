@@ -11,7 +11,7 @@ allrecon helps you list all the subdomains using subfinder and retrieves only va
 4. Give executable permission to file - chmod +x allrecon.sh
 
 ## Usage
-./allrecon.sh <domain>
+./allrecon.sh \<domain\>
 
 ## Result
 A output folder will be created, which will have different subfolders based on the domains, and each sub directory will have hosts.txt file with all subdomains and a final.txt with only valid 200 Ok response directory URL
