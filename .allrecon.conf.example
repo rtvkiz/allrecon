@@ -1,0 +1,28 @@
+# allrecon Configuration File Example
+# Copy this file to ~/.allrecon.conf or ./.allrecon.conf to use
+
+# Output directory for scan results
+# Default: output
+# ALLRECON_OUTPUT_DIR="/path/to/custom/output"
+
+# HTTP status codes to capture (comma-separated)
+# Default: 200,201,204,301,302
+# ALLRECON_HTTP_CODES="200,201,204,301,302,403"
+
+# Maximum number of parallel dirsearch processes
+# Default: 5
+# ALLRECON_MAX_PARALLEL="10"
+
+# Timeout for each dirsearch scan in seconds
+# Default: 300
+# ALLRECON_TIMEOUT="600"
+
+# Enable verbose logging
+# Default: false
+# ALLRECON_VERBOSE="true"
+
+# Example usage:
+# 1. Copy this file: cp .allrecon.conf.example ~/.allrecon.conf
+# 2. Uncomment and modify the settings you want to change
+# 3. Source it before running allrecon: source ~/.allrecon.conf && ./allrecon.sh domain.com
+# 4. Or add to your shell profile for permanent settings

@@ -1,0 +1,15 @@
+# Output directories
+output/
+reports/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
